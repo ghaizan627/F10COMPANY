@@ -255,7 +255,7 @@ table {
   display: inline-block;
 }
 .produk .man {
-  background: url(img/man.jpg);
+  background: url(../img/man.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -266,7 +266,7 @@ table {
   border-bottom-left-radius: 40px;
 }
 .produk .woman {
-  background: url(img/woman.jpg);
+  background: url(../img/woman.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -277,7 +277,7 @@ table {
   border-bottom-left-radius: 40px;
 }
 .produk .kids {
-  background: url(img/kids.jpg);
+  background: url(../img/kids.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -288,7 +288,7 @@ table {
   border-bottom-left-radius: 40px;
 }
 .produk .baby {
-  background: url(img/baby.jpg);
+  background: url(../img/baby.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
