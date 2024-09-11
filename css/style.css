@@ -1,0 +1,364 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* real style */
+.navbar {
+  background-color: rgb(64, 62, 62);
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: space-between;
+  font-size: 10px;
+  font-weight: bolder;
+  color: white;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+.navbar h1 {
+  font-size: 15px;
+}
+.navbar span {
+  background-color: black;
+  padding: 10px;
+}
+.navbar a {
+  margin-left: 90px;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.navbar .kontak {
+  background-color: black;
+  padding: 10px;
+  border-radius: 40px;
+  transition: 0.5s;
+}
+.navbar .kontak:hover {
+  opacity: 0.3;
+  padding: 15px;
+  border-radius: 40px;
+  transition: 0.5s;
+}
+.hero {
+  background: url(../html/gedung.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  color: black;
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero span {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.artikel1 {
+  margin-top: 20px;
+  background-color: white;
+  height: auto;
+  padding: 20px;
+}
+.artikel1 h1 {
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
+}
+.artikel1 p {
+  line-height: 2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.artikel1 .merk {
+  background-color: black;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+}
+.videos {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  margin-bottom: 50px;
+}
+
+.artikel2 {
+  background-color: black;
+  height: auto;
+  color: white;
+}
+.artikel2 h1 {
+  /* margin-top: 70px; */
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+}
+.produk {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  gap: 100px;
+}
+.produk h1 {
+  margin-top: 0;
+  font-size: 20px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  display: inline-block;
+  border-bottom-right-radius: 40px;
+  transition: 0.5s;
+}
+.produk h1:hover {
+  margin-top: 0;
+  font-size: 20px;
+  padding: 9px;
+  background-color: rgba(210, 143, 55, 0.688);
+  color: white;
+  border-bottom-right-radius: 40px;
+  display: inline-block;
+}
+.produk .man {
+  background: url(../html/man.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 200px;
+  margin-bottom: 50px;
+  border: solid white 2px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.produk .woman {
+  background: url(../html/woman.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 200px;
+  margin-bottom: 50px;
+  border: solid white 2px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.produk .kids {
+  background: url(../html/kids.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 200px;
+  margin-bottom: 50px;
+  border: solid white 2px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.produk .baby {
+  background: url(../html/baby.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 200px;
+  margin-bottom: 50px;
+  border: solid white 2px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.member .notaben {
+  color: blackl;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+.members h1 {
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+}
+.member {
+  padding: 20px;
+  border: black solid 1px;
+  text-align: center;
+  max-width: 157px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: solid black 3px;
+}
+.member p {
+  margin-bottom: 30px;
+}
+.member a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-color: black;
+  padding: 9px;
+  border-radius: 40px;
+  transition: 0.5s;
+}
+.member a:hover {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 0.3;
+  padding: 9px;
+  border-radius: 40px;
+}
+.sepuluh {
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5rem;
+}
+footer {
+  background-color: black;
+  height: 100px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
