@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/formulir.css">
+    <title>Formulir</title>
+  </head>
+  <body>
+      <div class="formulir">
+        <form action="end.html">
+          <h1>Formulir</h1>
+          <div class="user">
+            <div class="item">
+              <label for="nama">Nama<sup>*</sup></label>
+              <input type="text" name="" id="nama" placeholder="Masukan nama anda" required>
+            </div>
+            <div class="item">
+              <label for="umur">Umur<sup>*</sup></label>
+            <input type="number" name="" id="umur" max="100" min="0"   placeholder="Masukan umur anda" required>
+            </div>
+            <div class="item">
+              <label for="tanggallahir">Tanggal lahir<sup>*</sup></label>
+            <input type="date" name="" id="tanggallahir" placeholder="Masukan tanggal lahir anda" required>
+            </div>
+            <div class="item">
+              <label for="tel">E-mail<sup>*</sup></label>
+            <input type="email" name="" id="tel" placeholder="Masukan akun email anda" required>
+            </div>
+            <div class="item">
+              <label for="pesan">Pesan anda<sup>*</sup></label><br>
+            <textarea name="" id="pesan" placeholder="Masukan pesan anda...." rows="3" cols="52" required></textarea>
+            </div>
+          </div>
+          <div class="gender">
+            <label for="kel">Pria<sup>*</sup></label>
+            <input type="radio" name="gender" id="kel" value="pria" required>
+            <label for="kel">Wanita<sup>*</sup></label>
+            <input type="radio" name="gender" id="kel" value="wanite" required>
+            <label for="kel">Rahasia<sup>*</sup></label>
+            <input type="radio" name="gender" id="kel" value="rahasi" required>
+          </div>
+          <div class="submit">
+            <button type="submit">submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
